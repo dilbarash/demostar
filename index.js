@@ -12,7 +12,10 @@ const stargazingSpots = [
     { name: "Rann of Kutch", coords: [23.7333, 70.8007], description: "Amazing desert skies!" },
     { name: "Ladakh", coords: [34.1526, 77.5770], description: "Perfect for stargazing in the mountains." },
     { name: "Spiti Valley", coords: [32.2464, 78.0172], description: "Remote and clear night skies." },
-    { name: "Mahabaleshwar", coords: [17.9235, 73.6586], description: "Great spot for stargazing near nature." }
+    { name: "Mahabaleshwar", coords: [17.9235, 73.6586], description: "Great spot for stargazing near nature." },
+    { name: "Savandurga Hills", coords: [12.9192, 77.2920], description: "Rocky hills and open skies near Bengaluru." },
+    { name: "Nandi Hills", coords: [13.3702, 77.6835], description: "Beautiful morning views and starry nights." },
+    { name: "Coorg", coords: [12.3375, 75.8069], description: "Cool weather and clear skies for stargazing." }
 ];
 
 // Add markers for each spot
