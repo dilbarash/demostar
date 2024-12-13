@@ -52,10 +52,10 @@ stargazingSpots.forEach(async spot => {
     // Determine suitability for stargazing
     let suitability = "Insufficient Data";
     if (windSpeed !== null && aqi !== null) {
-        if (windSpeed < 5 && aqi < 50) {
-            suitability = "Suitable for Stargazing!";
+        if (windSpeed < 8 && aqi < 90) {
+            suitability = "Suitable for Stargazing! 🌌";
         } else {
-            suitability = "Not Suitable for Stargazing.";
+            suitability = "Not Suitable for Stargazing.🚫";
         }
     }
 
