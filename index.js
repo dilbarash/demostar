@@ -1,9 +1,9 @@
 // Initialize the map
 const map = L.map('map').setView([20.5937, 78.9629], 5); // Center on India
 
-// Add OpenStreetMap tiles
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+L.tileLayer("https://tiles.lightpollutionmap.info/{z}/{x}/{y}.png", {
+  attribution: '&copy; <a href="https://lightpollutionmap.info/">LightPollutionMap</a>',
+  maxZoom: 18,
 }).addTo(map);
 
 // List of stargazing spots
