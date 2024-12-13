@@ -26,7 +26,7 @@ async function fetchWeatherAndAQI(lat, lon) {
     try {
         const [weatherResponse, aqiResponse] = await Promise.all([
             fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${weatherApiKey}`),
-            fetch(`https://api.waqi.info/feed/geo:${lat};${lon}/?token=${airQualityApiKey}`)
+            fetch(`https://api.waqi.info/feed/here/?token=a87d60b45493985ee0c842179fd66174a556f4fe`)
         ]);
 
         const weatherData = await weatherResponse.json();
