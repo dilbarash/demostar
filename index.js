@@ -21,7 +21,7 @@ const stargazingSpots = [
 // Function to fetch weather and AQI data
 async function fetchWeatherAndAQI(lat, lon) {
     const weatherApiKey = 'c2c07ed68408e1730b71769f8740c726'; // Replace with your API key
-    const airQualityApiKey = 'a87d60b45493985ee0c842179fd66174a556f4fe'; // Replace with your API key
+    const airQualityApiKey = '579b464db66ec23bdd000001cdd3946e44ce4aad7209ff7b23ac571b'; // Replace with your API key
 
     try {
         const [weatherResponse, aqiResponse] = await Promise.all([
